@@ -26,3 +26,13 @@ vagrant使用一个基础镜像来快速克隆一个虚拟机，这些基础镜�
 3、进入到box文件所在指定路径执行 vagrant box add mi_dev centos-7.0-x86_64.box<br/>
 4、成功后会有相应的提示信息<br/>
 
+启动和使用SSH登录：<br/>
+启动vagrant，命令键入<br/>
+vagrant up<br/>
+
+打开virtualbox会看到我们已加载安装的那个box双击进入或点击启动按钮<br/>
+vagrant login：vagrant <br/>
+Password：vagrant<br/>
+默认进来时用户名和密码都是vagrant，这样就完成了vagrant虚拟机的启动，如果默认box界面不好用，可以使用CRT进行连接使用<br/>
+ifconfig :查看虚拟机的ip 默认端口2222
+
