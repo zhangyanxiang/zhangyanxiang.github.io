@@ -4,13 +4,13 @@ title : Atom Feed
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
  
- <title>myersguo's blog</title>
+ <title>水瓶's blog</title>
  <link href="{{ site.production_url }}/feed.xml" rel="self"/>
  <link href="{{ site.production_url }}"/>
  <updated>{{ site.time | date_to_xmlschema }}</updated>
  <id>{{ site.production_url }}</id>
  <author>
-   <name>myersguo</name>
+   <name>水瓶*冰</name>
  </author>
 
  {% for post in site.posts limit:10 %}
