@@ -14,10 +14,10 @@ title: 理解vagrant
   https://www.virtualbox.org/wiki/Downloads <br/>
 2、安装Vagrant<br/>
  https://www.vagrantup.com/downloads.html<br/>
-3、<a> 如果有现成的virtualfile文件则放到指定路径然后执行 vagrant up<br/>
+<b>3、如果有现成的virtualfile文件则放到指定路径然后执行 vagrant up<br/>
 例：文件在E:\va下  执行如下；<br/>
 ![插入图片](http://i2.buimg.com/567571/1c98d42b7747b33f.jpg)<br/>
- <b>如果没有现成的文件则执行 vargant init 进行初始化，会生成一个virtualfile文件<br/>
+<b>如果没有现成的文件则执行 vargant init 进行初始化，会生成一个virtualfile文件，之后通过添加box镜像来完成<br/>
 
 Boxes：<br/>
 vagrant使用一个基础镜像来快速克隆一个虚拟机，这些基础镜像在vagrant中叫做boxes，创建好一个Vagrantfile后需要在当前环境中添加boxes，一般最好先从网上下载相应的box，之后在本地进行添加，添加方法如下：<br/>
