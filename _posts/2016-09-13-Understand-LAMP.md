@@ -1,7 +1,8 @@
 ---
-layout :wp
-title: 理解LNMP架构
+layout: wp
+title: 理解LNMP
 ---
+
 
 ### nginx start command ###
 
